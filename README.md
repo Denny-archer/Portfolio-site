@@ -15,7 +15,7 @@ Este site foi criado para mostrar meu portfólio, informações sobre minha expe
 
 ## Como Visualizar o Site
 
-Você pode acessar o site em [link para o seu site](https://seusite.com). Se preferir, pode clonar este repositório e abrir o arquivo `index.html` no seu navegador para visualizar localmente.
+Você pode acessar o site em https://denny-archer.github.io/ . Se preferir, pode clonar este repositório e abrir o arquivo `index.html` no seu navegador para visualizar localmente.
 
 ```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
