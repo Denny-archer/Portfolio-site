@@ -9,6 +9,7 @@
 <script src="https://unpkg.com/scrollreveal"></script>
 <title> Portfolio </title>
 <link rel="stylesheet" type="text/css" href="style.css">
+<script src="menu.js" defer></script>
 </head>
 
 <body>
@@ -17,9 +18,32 @@
 <nav class="grupo-cabecalho">
     <a class="cabecalho-um" href="#primeiro-prince">Inicio</a>
     <a class="cabecalho-um" href="#primeiro-prince">Sobre Min</a>
-    <a class="cabecalho-um">Projetos</a>
-    <a class="cabecalho-um">Habilidades</a>
+    <a class="cabecalho-um" href="#primeiro-prince">Projetos</a>
+    <a class="cabecalho-um" href="#primeiro-prince">Habilidades</a>
 </nav>
+
+<div class="btn-abrir-menu" id="btn-menu">
+  <i class="bi bi-list"></i>
+</div>
+
+<div class="menu-mobile" id="menu-mobile" >
+  <div class="btn-fechar" >
+    <i class="bi bi-x-lg"></i>
+  </div>
+  <nav>
+   <ul>
+     <li> <a href="#primeiro-prince">Inicio</a> </li> 
+     <li> <a href="#primeiro-prince">Sobre Min</a>  </li>
+     <li> <a href="#primeiro-prince">Projetos</a>  </li>
+     <li> <a href="#primeiro-prince">Habilidades</a> </li>
+   </ul>
+  </nav>
+
+</div><!--menu-mobile-->
+<div class="overlay-menu" id="overlay-menu">
+
+</div>
+
 </header>
 
 <main class="conteudo-principal">
@@ -137,6 +161,8 @@ sr.reveal('.apresentacao', { duration: 2000 });
 sr.reveal('.outro-inicio', { duration: 2000});
 
 sr.reveal('.titulo', { duration: 2000});
+
+
 
 
 
